@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: #363636	;
+}
+img{
+    height: 60px;
+    width: 98px;
+}
+li{
+    list-style: none;
+    color: #fff;
+}
+a{
+     text-decoration: none;
+}
+.navbar{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    position: fixed;
+    background: rgba(17, 17, 17, 0.486);
+    width: 100%;
+}
+.cardapio{
+    background: url("https://s2.glbimg.com/P2xoJAXJu-SUY5P4rZw8HYiDL1M=/e.glbimg.com/og/ed/f/original/2022/08/29/nathan-dumlao-6vhpy27jdps-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.nosso_cafe{
+    background: url("https://img.freepik.com/fotos-gratis/plano-de-fundo-de-graos-de-cafe-torrados-frescos-perfeito-para-um-papel-de-parede-legal_181624-13741.jpg?w=900&t=st=1668952913~exp=1668953513~hmac=436e3ae3cbebd7e95507d4ad63a1ce9355c0a347eead8518dbdc3ee616189969");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.login{
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(1);
+}
+.nav-item{
+    margin: 0 32px;
+}
+.nav-item:last-child{
+    margin-left: 64px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    color: #0088d2;
+}
+.nav-link{
+    transition: 0.5s ease;
+    color: #fff;
+}
+.nav-link:hover{
+    color: #0088d2;
+}
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 28;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+@media (max-width:768px){
+    .hamburguer{
+        display: block;
+    }
+}
